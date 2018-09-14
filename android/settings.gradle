@@ -1,0 +1,3 @@
+rootProject.name = 'RFC_RN'
+
+include ':app'
