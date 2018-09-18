@@ -14,6 +14,13 @@ export default class Details extends Component {
         />
       </View>
     );
-  }
+  };
+  static navigationOptions = {
+    title: '详情',
+    headerStyle: {
+      backgroundColor: '#ff9999',
+    },
+    headerTintColor: '#fff'
+  };
 }
 

@@ -41,7 +41,14 @@ export default class Browse extends Component {
         </TouchableHighlight>
       </Swiper>
     );
-  }
+  };
+  static navigationOptions = {
+    title: 'Browse',
+    headerStyle: {
+      backgroundColor: '#ff9999',
+    },
+    headerTintColor: '#fff'
+  };
 }
 
 const styles = StyleSheet.create({

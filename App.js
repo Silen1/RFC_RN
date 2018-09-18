@@ -29,7 +29,14 @@ class Home extends Component {
         />
       </View>
     );
-  }
+  };
+  static navigationOptions = {
+    title: '主页',
+    headerStyle: {
+      backgroundColor: '#ff9999',
+    },
+    headerTintColor: '#fff'
+  };
 }
 
 const RootStack = createStackNavigator(

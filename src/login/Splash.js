@@ -24,7 +24,14 @@ export default class Splash extends Component {
           />
         </View>
     );
-  }
+  };
+  static navigationOptions = {
+    title: 'Splash',
+    headerStyle: {
+      backgroundColor: '#ff9999',
+    },
+    headerTintColor: '#fff'
+  };
 }
 
 const styles = StyleSheet.create({
