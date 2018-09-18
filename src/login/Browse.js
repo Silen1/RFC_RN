@@ -5,7 +5,6 @@ import Swiper from 'react-native-swiper';
 export default class Browse extends Component {
 
   _onPressButton() {
-    Alert.alert('You tapped the button!')
   }
 
   render() {
@@ -16,7 +15,7 @@ export default class Browse extends Component {
         <View style={styles.slide1}>
           <Image
             style={styles.imagebg}
-            source={{uri: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536920417190&di=d1277cc9c647f7ace11edb1d5e5a6835&imgtype=0&src=http%3A%2F%2Fimgm.cnmo-img.com.cn%2Fappimg%2Fscreenpic%2Fmiddle%2F785%2F784761.jpg'}}
+            source={{uri: 'https://images-na.ssl-images-amazon.com/images/I/51m0RIKKm1L.jpg'}}
           />
         </View>
         <View style={styles.slide2}>
